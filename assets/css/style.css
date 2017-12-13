@@ -1,0 +1,74 @@
+body {
+  background-image: url('../images/graybackground.jpg');
+}
+
+h1 {
+  font-family: 'Syncopate', sans-serif;
+}
+
+p {
+  /*font-weight: bold;
+  font-size: 40px;
+  font-family: 'Audiowide', cursive;*/
+}
+
+.jumbotron jumbotron-fluid {
+  background-image: url('../images/headerbackground.jpg');
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  opacity: 0.75;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+  color: #ffffff;
+  background-color: #FF69B4;
+  border-color: #FF69B4;
+}
+
+.instructions {
+  background-color: #ffffff;
+  border-radius: 20px;
+  opacity: 0.75;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#randomscore {
+
+}
+
+.scoreboard {
+
+}
+
+.gems {
+
+}
+
+.gemlist {
+  list-style: none;
+}
+
+img {
+  height:auto;
+  width: 115px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.totalscore {
+
+}
+
+.addedvalue {
+
+}

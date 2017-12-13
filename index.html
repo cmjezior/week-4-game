@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Crystals Collector</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-3">Crystal Collector</h1>
+        <p class="lead">The name of the game: Collect these beautiful crystals to your heart's desire - if you dare!</p>
+        <a class="btn btn-primary btn-lg" id="gamestart" href="#" role="button">Start Collecting</a>
+      </div>
+    </div>
+
+
+<!--INSTRUCTIONS -->
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Do you have what it takes?</h3>
+            <p class="card-text">
+              <ol class="instructions float-left">
+                <li><p>You will be given a random number at the start of the game.</p></li>
+                <li><p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p></li>
+                <li><p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p></li>
+                <li><p>The value of each crystal is hidden from you until you click on it.</p></li>
+                <li><p>Each time when the game starts, the game will change the values of each crystal.</p></li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+
+<!-- THIS IS THE START OF THE 2ND GROUPED COLUMN -->
+      <div class="col-sm-6">
+<!-- THIS IS THE 1ST SPLIT WITHIN COLUMN 2 -->
+        <div class="row">
+<!-- SECTION 1 -->
+          <div class="text-center col-sm-4">
+            <div class="card">
+              <div class="card-block">
+                <h3 class="card-title">Crystal Goal</h3>
+                <p class="card-text"><div id="randomscore">
+                </div></p>
+              </div>
+            </div>
+          </div>
+<!-- SECTION 2 -->
+          <div class="text-center col-sm-4">
+            <div class="card">
+              <div class="card-block">
+                <h3 class="card-title">Wins</h3>
+                <p class="card-text">##</p>
+                <h3 class="card-title">Losses</h3>
+                <p class="card-text">##</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="card text-center">
+          <div class="card-block text-center">
+            <h3 class="card-title">The Crystals</h3>
+            <p class="card-text"></p>
+            <img src="assets/images/redgem.png" class="rounded float-left" alt="...">
+            <img src="assets/images/tealgem.png" class="rounded float-left" alt="...">
+            <img src="assets/images/yellowgem.png" class="rounded float-left" alt="...">
+            <img src="assets/images/greengem.png" class="rounded float-left" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+<!-- SECTION 1 -->
+        <div class="text-center col-sm-12 col-md-6 col-lg-6">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">Counter</h3>
+              <p class="card-text">##</p>
+            </div>
+          </div>
+        </div>
+<!-- SECTION 2 -->
+
+    </div>
+  </div>
+
+    <div class="randomscore">
+    </div>
+
+    <div class="scoreboard">
+    </div>
+
+    <div class="totalscore">
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  </body>
+</html>
